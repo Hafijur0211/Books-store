@@ -22,3 +22,7 @@ npm i nodemon
 
 - index.js
    - Express js
+
+```
+npm run dev
+```
