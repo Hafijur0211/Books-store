@@ -1,4 +1,4 @@
-const Cat = mongoose.model("Cat", { name: String });
+ import mongoose from "mongoose";
 
 const bookSchema = mongoose.Schema(
     {
@@ -10,7 +10,7 @@ const bookSchema = mongoose.Schema(
             type: String,
             require: true,
         },
-        publisherYear: {
+        publishYear: {
             type: Number,
             require: true,
         },
