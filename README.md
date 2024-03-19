@@ -26,3 +26,7 @@ npm i nodemon
 ```
 npm run dev
 ```
+
+```
+npm i mongoose
+```
